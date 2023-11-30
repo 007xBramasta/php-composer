@@ -1,0 +1,21 @@
+{
+    "name": "007xbramasta/belajar-php-composer",
+    "description": "Belajar PHP Composer",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Bramasta Albatio Haryono",
+            "email": "bramasta026x@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bramasta\\" : "src/"
+        }
+    },
+    "require": {
+        "php" : ">=8.0",
+        "bramasta/belajar-php-composer-hello" : "2.0.0",
+        "monolog/monolog" : "2.2.0"
+    }
+}
